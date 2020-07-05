@@ -27,7 +27,7 @@ export default {
             icon: "icon-shopping-cart",
             className: "raw-post",
             title: themePrefix("button_title"),
-            position: "first-last-hidden"
+            position: "second-last-hidden"
           };
         });
       }
