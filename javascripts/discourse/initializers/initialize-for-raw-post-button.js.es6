@@ -24,7 +24,7 @@ export default {
         api.addPostMenuButton("show-raw", () => {
           return {
             action: "showRaw",
-            icon: "icon-shopping-cart",
+            icon: "file-alt",
             className: "raw-post",
             title: themePrefix("button_title"),
             position: "second-last-hidden"
