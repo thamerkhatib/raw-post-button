@@ -1,6 +1,8 @@
 import I18n from "I18n";
-import { withPluginApi } from "discourse/lib/plugin-api";
-import showModal from "discourse/lib/show-modal";
+import { createWidget } from "discourse/widgets/widget";
+import { iconNode } from "discourse-common/lib/icon-library";
+import { h } from "virtual-dom";
+import DiscourseURL from "discourse/lib/url";
 
 export default {
   name: "raw-post-button",
