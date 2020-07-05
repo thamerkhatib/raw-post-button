@@ -27,7 +27,7 @@ export default {
             icon: "file-alt",
             className: "raw-post",
             title: themePrefix("button_title"),
-            position: "second-last-hidden"
+            position: "first-last-hidden"
           };
         });
       }
